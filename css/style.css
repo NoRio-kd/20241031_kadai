@@ -1,0 +1,158 @@
+body {
+    background-image: url();
+    font-family: fantasy;
+}
+
+.mainvisual {
+    background-image: url(../img/mainvisual.png);
+    background-color: aqua;
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    width: 1200px;
+    box-sizing: border-box;
+    margin:0px auto;
+    color: white;
+    text-align: center
+}
+
+p.mv {
+    padding: 180px;
+    font-size: 50px;
+    color: lightyellow;
+}
+
+/* navigation */
+
+div#navMenu {
+    width: 1200px;
+    margin: 0px auto;
+    box-sizing: border-box;
+}
+
+.header_list {
+    list-style-type: none; /*インデックス（番号や点）を消す*/
+    padding: 0; /* デフォルトのパディングを消す */
+    margin: 0; /* デフォルトのマージンを消す */
+    padding: 10px
+  }
+
+/* ナビゲーションのスタイル */
+.header_navigation {
+    /* width: 1200px; */
+    /* display: none; デフォルトで隠す */
+    /* position: absolute; */
+    background-color: #f1f1f1;
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+
+/* ナビゲーション表示時のスタイル
+  .header_navigation.show {
+    display: block; /* 表示 */
+  } */
+
+/* トグルボタンのスタイル */
+/* .toggle-button {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    font-size: 16px;
+  }  */
+
+ul.header_list {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    align-items: stretch;
+    align-content: space-between;
+    /* flex-wrap: nowrap; */
+    /* margin: 10px; */
+    background-color: slategrey;
+}
+
+ul.header_list {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px auto;
+}
+
+    li.navigation_list {
+        padding: 0px 10px;
+    }
+
+        .navigation_list a {
+            text-decoration: none; /* リンクの下線を消す */
+            color: black; /* リンクの色を青系に変更 */
+        }
+
+        .navigation_list a:hover {
+            color: #2c3e50; /* ホバー時の色を変更 */
+        }
+
+        .primary img {
+            width: 500px;
+            height: 400px;
+            box-sizing: border-box;
+            object-fit: cover;
+        }
+
+/* about */
+
+section#about {
+    text-align: center;
+}
+
+
+/* image */
+
+section#about_img {
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+    height: 300px;
+    margin: auto;
+    /* object-fit: cover; */
+    /* box-sizing: border-box; */
+}
+
+.about_img img{
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+}
+
+/* information */
+
+section#info {
+    padding-top: 60px;
+}
+
+.info {
+    display: flex;
+    width: 1000px;
+    box-sizing: border-box;
+    margin: 0px auto;
+    text-align: center;
+    /* padding: 0px 10px; */
+}
+
+.box {
+    padding: 15px 15px;
+}
+
+
+/* contact */
+div#contact {
+    margin: 60px auto;
+    text-align: center;
+}
+
+/* access */
+div#access {
+    
+    margin: 60px auto;
+    text-align: center;
+}
